@@ -32,8 +32,13 @@ struct ContentView: View {
                 FuseAdViewRepresentable(
                     code: "banner",
                     params: FuseAdViewParams(
-                        customTargeting: ["sport": "basketball", "size": "small"],
-                        contentUrls: ["https://www.publift.com/about"]
+                        customTargeting: [
+                            "sport": "basketball",
+                            "size": "small"
+                        ],
+                        contentUrls: [
+                            "https://www.publift.com/about"
+                        ]
                     ),
                     onEvent: { adView, adViewEvent in
                         // You can listen to banner ad events.
