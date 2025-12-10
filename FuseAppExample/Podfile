@@ -1,0 +1,10 @@
+platform :ios, '15.0'
+
+source 'https://dl.cloudsmith.io/BrnMk9bbufLlX4Vd/publift/fuseapp/cocoapods/index.git'
+source 'https://cdn.cocoapods.org/'
+
+target 'FuseAppExample' do
+  use_frameworks!
+  
+  pod 'FuseAppSDK'
+end

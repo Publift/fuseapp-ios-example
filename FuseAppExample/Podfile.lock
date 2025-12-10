@@ -1,0 +1,63 @@
+PODS:
+  - AmazonPublisherServicesSDK (5.3.3)
+  - FBAudienceNetwork (6.20.1)
+  - FuseAppSDK (2.2.0):
+    - AmazonPublisherServicesSDK (~> 5.3)
+    - Google-Mobile-Ads-SDK (~> 12.9.0)
+    - GoogleMobileAdsMediationFacebook (~> 6.20.1.0)
+    - GoogleMobileAdsMediationInMobi (~> 10.8.6.0)
+    - GoogleMobileAdsMediationVungle (~> 7.5.3.0)
+    - GoogleUserMessagingPlatform (~> 3.0.0)
+    - PrebidMobile (~> 3.1.0)
+  - Google-Mobile-Ads-SDK (12.9.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleMobileAdsMediationFacebook (6.20.1.0):
+    - FBAudienceNetwork (= 6.20.1)
+    - Google-Mobile-Ads-SDK (~> 12.0)
+  - GoogleMobileAdsMediationInMobi (10.8.6.0):
+    - Google-Mobile-Ads-SDK (~> 12.0)
+    - InMobiSDK (= 10.8.6)
+  - GoogleMobileAdsMediationVungle (7.5.3.0):
+    - Google-Mobile-Ads-SDK (~> 12.0)
+    - VungleAds (= 7.5.3)
+  - GoogleUserMessagingPlatform (3.0.0)
+  - InMobiSDK (10.8.6)
+  - PrebidMobile (3.1.1):
+    - PrebidMobile/core (= 3.1.1)
+  - PrebidMobile/core (3.1.1)
+  - VungleAds (7.5.3)
+
+DEPENDENCIES:
+  - FuseAppSDK
+
+SPEC REPOS:
+  https://dl.cloudsmith.io/BrnMk9bbufLlX4Vd/publift/fuseapp/cocoapods/index.git:
+    - FuseAppSDK
+  trunk:
+    - AmazonPublisherServicesSDK
+    - FBAudienceNetwork
+    - Google-Mobile-Ads-SDK
+    - GoogleMobileAdsMediationFacebook
+    - GoogleMobileAdsMediationInMobi
+    - GoogleMobileAdsMediationVungle
+    - GoogleUserMessagingPlatform
+    - InMobiSDK
+    - PrebidMobile
+    - VungleAds
+
+SPEC CHECKSUMS:
+  AmazonPublisherServicesSDK: 08312af8e8b0cca3dcb3e91c8d464b83e95bcaba
+  FBAudienceNetwork: 08e86d63a05b3a5a59414af12e4af8d756943c80
+  FuseAppSDK: 98b7c7f5767de14c1832ecd302fcd4c4c6ad16fa
+  Google-Mobile-Ads-SDK: 36cce7d8dc1b615145d02491c8bf5640ef854e7c
+  GoogleMobileAdsMediationFacebook: b11a92ae3bfdae19853b882252b7e62791c18162
+  GoogleMobileAdsMediationInMobi: 1b9a223c4626924777d2be734e43da5d85fa8a59
+  GoogleMobileAdsMediationVungle: 15b78a22329c5893234bd9702f11b250b8a0b5fa
+  GoogleUserMessagingPlatform: f8d0cdad3ca835406755d0a69aa634f00e76d576
+  InMobiSDK: a6e7bfbecb698c83183f42c5a3cfa1ac52f16bff
+  PrebidMobile: 034747533a7efd2e3394e20072e4b7005b0fd715
+  VungleAds: 3b273eba0219680dbef90d51e690d165422702d9
+
+PODFILE CHECKSUM: 7a63ba06c2a0df48a1fb674ee42c176ec5d8c169
+
+COCOAPODS: 1.16.2
