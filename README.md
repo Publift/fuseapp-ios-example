@@ -18,6 +18,10 @@ You can then open `FuseAppExample.xcworkspace` in Xcode and run the app.
 
 Fuse App SDK also supports using Swift Package Manager. Installation instructions can be found in our [online documentation](https://docs.publift.com/fuse-app/ios-installation/).
 
+## Documentation
+
+Check out our [developers site](https://docs.publift.com/fuse-app/) for documentation on using the Fuse App SDK.
+
 ## License
 
 This example code is provided under the MIT license. For more information, please see the LICENSE file.
