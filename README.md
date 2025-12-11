@@ -14,7 +14,7 @@ Once you have CocoaPods installed, run the following command in the project dire
 pod install
 ```
 
-You can then open the `.xcworkspace` file in Xcode and run the app.
+You can then open `FuseAppExample.xcworkspace` in Xcode and run the app.
 
 Fuse App SDK also supports using Swift Package Manager. Installation instructions can be found in our [online documentation](https://docs.publift.com/fuse-app/ios-installation/).
 
