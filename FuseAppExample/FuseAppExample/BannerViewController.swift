@@ -31,10 +31,7 @@ class ExampleViewController: UIViewController {
          * Example 1: Display a banner ad
          */
         
-        let label1 = UILabel()
-        label1.text = "Banner Ad"
-        label1.textAlignment = .center
-        label1.translatesAutoresizingMaskIntoConstraints = false
+        let label1 = UILabel(text: "Banner Ad")
         stackView.addArrangedSubview(label1)
         
         let adView1 = FuseAdView(code: "banner")
