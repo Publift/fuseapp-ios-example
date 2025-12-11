@@ -1,5 +1,5 @@
 //
-// ContentView.swift
+// BannerView.swift
 // FuseAppExample
 //
 // Copyright 2025 Publift Pty Ltd.
@@ -8,27 +8,26 @@
 import FuseAppSDK
 import SwiftUI
 
-struct ContentView: View {
+struct BannerView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
-                Text("Fuse App Examples")
-                    .font(.title)
-                
-                Divider()
+                /*
+                 * Example 1: Display a banner ad
+                 */
                 
                 Text("Banner Ad")
-                    .font(.headline)
                 
-                // Display a banner ad.
                 FuseAdViewRepresentable(code: "banner")
                 
                 Divider()
                 
+                /*
+                 * Example 2: Display a banner ad with custom parameters
+                 */
+
                 Text("Banner Ad With Custom Parameters")
-                    .font(.headline)
                 
-                // Send some extra info when we request the banner ad.
                 FuseAdViewRepresentable(
                     code: "banner",
                     params: FuseAdViewParams(
@@ -48,10 +47,12 @@ struct ContentView: View {
                 
                 Divider()
 
+                /*
+                 * Example 3: Display a banner ad with custom placeholder image
+                 */
+
                 Text("Banner Ad With Custom Placeholder Image")
-                    .font(.headline)
                 
-                // Customise the appearance of the banner ad whilst loading and if there's an error.
                 FuseAdViewRepresentable(
                     code: "example_no_fill_banner",
                     loadingBehaviour: .background(image: UIImage(named: "Placeholder")),
@@ -60,15 +61,17 @@ struct ContentView: View {
                 
                 Divider()
 
-                Text("Native Ad")
-                    .font(.headline)
+                /*
+                 * Example 4: Display a native ad (instead of a banner ad)
+                 */
                 
-                // Display a native ad instead of a banner ad.
+                Text("Native Ad")
+                
                 FuseAdViewRepresentable(
                     code: "native",
                     loadingBehaviour: .progressBar,
                     errorBehaviour: .doNothing
-                )                
+                )
             }
             .padding()
         }
