@@ -9,6 +9,8 @@ import FuseAppSDK
 import SwiftUI
 
 struct MainView: View {
+    let interstitialAd = FuseFullScreenAdView(code: "interstitial")
+    
     var body: some View {
         NavigationStack {
             VStack {
@@ -23,6 +25,15 @@ struct MainView: View {
                 
                 NavigationLink(destination: BannerViewController().navigationTitle("UIKit Example")) {
                     Text("UIKit Example")
+                }
+                .buttonStyle(BorderedButtonStyle())
+                .padding()
+                
+                Button("Interstitial Example") {
+                    /*
+                     * Example: Display a full-screen interstitial ad
+                     */
+                    interstitialAd.show(timeout: 10)
                 }
                 .buttonStyle(BorderedButtonStyle())
                 .padding()
