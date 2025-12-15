@@ -16,7 +16,7 @@ This repository contains example code for the Fuse App SDK on iOS.
 ## Resources
 
 * [Fuse App SDK](https://docs.publift.com/fuse-app/) 
-* [Swift Package Manager](https://docs.publift.com/fuse-app/ios-installation/) instructions
+* [iOS installation](https://docs.publift.com/fuse-app/ios-installation/) (CocoaPods and Swift Package Manager)
 
 ## License
 
