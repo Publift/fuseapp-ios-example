@@ -10,8 +10,8 @@ This repository contains example code for the Fuse App SDK on iOS.
 2. Run a `pod install`
 3. Open `FuseAppExample.xcworkspace` in Xcode
 4. See the following files for implementation examples:
-  - [FuseAppExampleApp.swift](FuseAppExample/FuseAppExample/FuseAppExampleApp.swift)
-  - [MainView.swift](FuseAppExample/FuseAppExample/MainView.swift) 
+  - [SwiftUI Examples](blob/main/FuseAppExample/FuseAppExample/BannerView.swift)
+  - [UIKit Examples](blob/main/FuseAppExample/FuseAppExample/BannerViewController.swift)
 
 ## Resources
 
