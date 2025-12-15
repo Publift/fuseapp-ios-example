@@ -1,7 +1,6 @@
 {
   "images" : [
     {
-      "filename" : "Publift Logo.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -13,7 +12,6 @@
           "value" : "dark"
         }
       ],
-      "filename" : "Publift Logo Dark.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
