@@ -9,7 +9,7 @@ import FuseAppSDK
 import SwiftUI
 
 struct MainView: View {
-    let interstitialAd = FuseFullScreenAdView(code: "interstitial")
+    let interstitialAd = FuseFullScreenAdView(code: "interstitial_zone_code")
     
     var body: some View {
         NavigationStack {

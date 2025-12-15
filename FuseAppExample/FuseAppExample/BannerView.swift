@@ -18,7 +18,7 @@ struct BannerView: View {
                 
                 Text("Banner Ad")
                 
-                FuseAdViewRepresentable(code: "banner")
+                FuseAdViewRepresentable(code: "banner_zone_code")
                 
                 Divider()
                 
@@ -29,7 +29,7 @@ struct BannerView: View {
                 Text("Banner Ad With Custom Parameters")
                 
                 FuseAdViewRepresentable(
-                    code: "banner",
+                    code: "banner_zone_code",
                     params: FuseAdViewParams(
                         customTargeting: [
                             "sport": "basketball",
@@ -68,7 +68,7 @@ struct BannerView: View {
                 Text("Native Ad")
                 
                 FuseAdViewRepresentable(
-                    code: "native",
+                    code: "native_zone_code",
                     loadingBehaviour: .progressBar,
                     errorBehaviour: .doNothing
                 )

@@ -34,7 +34,7 @@ class ExampleViewController: UIViewController {
         let label1 = UILabel(text: "Banner Ad")
         stackView.addArrangedSubview(label1)
         
-        let adView1 = FuseAdView(code: "banner")
+        let adView1 = FuseAdView(code: "banner_zone_code")
         stackView.addArrangedSubview(adView1)
         
         /*
@@ -45,7 +45,7 @@ class ExampleViewController: UIViewController {
         stackView.addArrangedSubview(label2)
         
         let adView2 = FuseAdView(
-            code: "banner",
+            code: "banner_zone_code",
             params: FuseAdViewParams(
                 customTargeting: [
                     "sport": "basketball",
@@ -83,7 +83,7 @@ class ExampleViewController: UIViewController {
         stackView.addArrangedSubview(label4)
         
         let adView4 = FuseAdView(
-            code: "native",
+            code: "native_zone_code",
             loadingBehaviour: .progressBar,
             errorBehaviour: .doNothing
         )
