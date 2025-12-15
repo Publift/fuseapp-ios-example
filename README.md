@@ -4,23 +4,19 @@ Fuse is the [Publift](https://www.publift.com/) advertising solution for publish
 
 This repository contains example code for the Fuse App SDK on iOS.
 
-## Installation
+## Getting started
 
-The example app uses [CocoaPods](https://guides.cocoapods.org/using/getting-started.html#getting-started) to install Fuse App SDK and other dependencies.
+1. Clone this repo
+2. Run a `pod install`
+3. Open `FuseAppExample.xcworkspace` in Xcode
+4. See the following files for implementation examples:
+  - [FuseAppExampleApp.swift](FuseAppExample/FuseAppExample/FuseAppExampleApp.swift)
+  - [MainView.swift](FuseAppExample/FuseAppExample/MainView.swift) 
 
-Once you have CocoaPods installed, run the following command in the project directory:
+## Resources
 
-```
-pod install
-```
-
-You can then open `FuseAppExample.xcworkspace` in Xcode and run the app.
-
-Fuse App SDK also supports using Swift Package Manager. Installation instructions can be found in our [online documentation](https://docs.publift.com/fuse-app/ios-installation/).
-
-## Documentation
-
-Check out our [developers site](https://docs.publift.com/fuse-app/) for documentation on using the Fuse App SDK.
+* [Fuse App SDK](https://docs.publift.com/fuse-app/) 
+* [Swift Package Manager](https://docs.publift.com/fuse-app/ios-installation/) instructions
 
 ## License
 
