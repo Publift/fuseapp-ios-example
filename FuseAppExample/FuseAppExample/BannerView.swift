@@ -38,12 +38,15 @@ struct BannerView: View {
                         contentUrls: [
                             "https://www.publift.com/about"
                         ]
-                    ),
-                    onEvent: { adView, adViewEvent in
-                        // You can listen to banner ad events.
-                        print("Fuse Event: \(adViewEvent)")
-                    }
+                    )
                 )
+                .onEvent { adView, adViewEvent in
+                    // You can listen to banner ad events.
+                    print("Fuse Event: \(adViewEvent)")
+                }
+                .onSizeChanged { adView, size in
+                    print("Size changed: \(size.width)x\(size.height)")
+                }
                 
                 Divider()
 

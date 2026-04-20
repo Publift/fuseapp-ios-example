@@ -121,4 +121,8 @@ extension ExampleViewController: FuseAdViewDelegate {
         // Listen to banner ad events (loading, loaded, etc.)
         print("Fuse Event: \(event)")
     }
+    
+    func onSizeChanged(adView: FuseAppSDK.FuseAdView, size: CGSize) {
+        print("Size changed: \(size.width)x\(size.height)")
+    }
 }
