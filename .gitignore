@@ -9,3 +9,6 @@ Pods/
 timeline.xctimeline
 playground.xcworkspace
 xcuserdata/
+
+# Keep the SPM app's Package.resolved
+!**/*.xcodeproj/project.xcworkspace/
